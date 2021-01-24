@@ -1,0 +1,18 @@
+# Configuration file for git hooks example
+
+## Allow push to branches
+## Used in grep commad, so you can use regexp
+CONFIG_ALLOW_BRANCHES=(
+
+)
+
+## Message bug id guess in branch
+## Used in grep commad, so you can use regexp
+CONFIG_COMMIT_MESSAGE_BUG_ID=""
+CONFIG_COMMIT_MESSAGE_BUG_ID_DELIMETER=""
+
+## List of requirements for commit message
+## Used in grep commad, so you can use regexp
+CONFIG_COMMIT_MESSAGE_REQUIREMENTS=(
+
+)
